@@ -1,3 +1,4 @@
+//Agregando cambios2
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -8,7 +9,7 @@ public class Formulario extends JFrame implements ActionListener{
    public Formulario(){
 	setLayout(null);
 	label1 = new JLabel("Esperando...");
-	label1.setBounds(10,10,200,30);
+	label1.setBounds(10,10,202,30);
 	add(label1);
 
 	btn1 = new JButton("1");
